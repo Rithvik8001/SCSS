@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// variables in scss
+$primary-color: green;
+$big-font: 4rem;
+
+// nesting in scss
+.intro {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  h2 {
+    font-size: $big-font;
+  }
+
+  button {
+    border: none;
+    background: $primary-color;
+    padding: 1rem 3rem;
+    transition: all 1s ease;
+    cursor: pointer;
+    &:hover {
+      background: skyblue;
+    }
+  }
+}

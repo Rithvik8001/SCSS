@@ -1,1 +1,26 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.intro h2 {
+  font-size: 4rem;
+}
+.intro button {
+  border: none;
+  background: green;
+  padding: 1rem 3rem;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.intro button:hover {
+  background: skyblue;
+}/*# sourceMappingURL=style.css.map */
